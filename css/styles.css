@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    background-color: #A11825;
   }
 
   body {
@@ -20,7 +19,7 @@
   }
 
   h3 {
-    color:white;
+    color:#A11825;
     font-size:24px;
     font-weight:700;
   }
@@ -29,5 +28,10 @@
     color:white;
     font-size:24px;
     font-weight:500;
+  }
+
+  .buttons {
+    background-color:white;
+    padding: 1rem;
   }
   
