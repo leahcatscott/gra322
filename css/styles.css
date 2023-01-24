@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    background-color: #A11825;
+  }
+
+  body {
+    font-family: "Montserrat";
+  }
+
+  h1 {
+    color:white;
+    font-size:32px;
+    font-weight:700;
+  }
+
+  h2 {
+    color:white;
+    font-size:28px;
+    font-weight:500;
+  }
+
+  h3 {
+    color:white;
+    font-size:24px;
+    font-weight:700;
+  }
+
+  h4 {
+    color:white;
+    font-size:24px;
+    font-weight:500;
+  }
+  
