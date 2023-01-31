@@ -15,31 +15,54 @@ p {
 header {
     background-image: url('../img/header.jpg');
     background-size: cover;
-    height: 68vh;
+    height: 48vh;
+}
+
+.inner {
+    margin: 0 auto;
+    max-width: 1280px;
+    position: relative;
 }
 
 header .inner {
-    margin: 0 auto;      
-    max-width: 1280px;
+    height: 100%;
 }
 
 nav {
-    display:none;
+    display: none;
+    background-color: rgba(255, 255, 255, .4);
+    padding: 1rem;
+}
+
+nav a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav ul {
+    margin-left: 0;
+    padding-left: 0;
 }
 
 h1 {
-    font-size:14px;
-    font-weight:600;
-    text-transform:uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
     letter-spacing: 1px;
-    background-color:rgba(255,255,255,.4);
-    padding:1rem;
+    background-color: rgba(255, 255, 255, .4);
+    padding: 1rem;
 }
 
 .menu-button {
     border: 1px solid transparent;
-    background-color:rgba(255,255,255,.4);
-    padding:1rem;
+    background-color: rgba(255, 255, 255, .4);
+    padding: 1rem;
 }
 
 .menu-wrapper {
@@ -47,10 +70,59 @@ h1 {
     justify-content: space-between;
 }
 
+/*Check this VVVVVVV
+*/
 .intro {
     text-transform: uppercase;
-    padding: 25rem 1rem 1rem 1rem;
-    max-width:517px;
     line-height: 29px;
     letter-spacing: 1px;
+    position: absolute;
+    padding: 1rem;
+    bottom: 0;
+    left: 0;
+}
+
+.featured-work {
+    padding: 3rem 1rem;
+}
+
+.featured-work h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.featured-work figure {
+    margin-bottom: 2rem;
+}
+
+.featured-work figcaption {
+    margin-top: 1rem;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 680px) {
+    .work-grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .menu-button {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 2rem;
+    }
+
 }
