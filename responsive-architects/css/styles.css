@@ -141,11 +141,10 @@ footer h2 {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .about .text {
+    .text {
         display:flex;
         gap: 3rem;
         margin:auto;
-        
     }
 
     .about p {
