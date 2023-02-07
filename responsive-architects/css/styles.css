@@ -74,12 +74,15 @@ h1 {
 */
 .intro {
     text-transform: uppercase;
-    line-height: 29px;
+    line-height: 24px;
     letter-spacing: 1px;
     position: absolute;
     padding: 1rem;
     bottom: 0;
     left: 0;
+    max-width: 500px;
+    font-size:16px;
+    margin-right:2rem;
 }
 
 .featured-work {
@@ -103,12 +106,33 @@ h1 {
     text-transform: uppercase;
 }
 
+.about {
+    background-color: #fafafa;
+    padding: 1rem 1.5rem 3rem;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 1rem 0rem;
+}
+
+.about p {
+    font-size: 15px;
+    line-height: 26px;
+    border-left: 3px solid #f2f2f2;
+    padding-left: 1rem;
+    letter-spacing: 1px;
+}
+
 @media screen and (min-width: 680px) {
     .work-grid {
         display: grid;
         gap: 1rem;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    
 }
 
 @media screen and (min-width: 800px) {
@@ -123,6 +147,19 @@ h1 {
     nav ul {
         display: flex;
         gap: 2rem;
+    }
+
+    .about .text{
+        display: flex;
+        gap:1rem;
+    }
+
+    .about p {
+        max-width:50rem;
+    }
+
+    .about h2 {
+        min-width: fit-content;
     }
 
 }
