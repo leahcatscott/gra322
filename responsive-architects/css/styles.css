@@ -109,6 +109,7 @@ h1 {
 .about {
     background-color: #fafafa;
     padding: 1rem 1.5rem 3rem;
+    display:flex;
 }
 
 .about h2 {
@@ -126,11 +127,38 @@ h1 {
     letter-spacing: 1px;
 }
 
+footer h2 {
+    text-transform:uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding:1.5rem;
+}
+
 @media screen and (min-width: 680px) {
     .work-grid {
         display: grid;
         gap: 1rem;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .about .text {
+        display:flex;
+        gap: 3rem;
+        margin:auto;
+        
+    }
+
+    .about p {
+        max-width:50rem;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .about h2 {
+        min-width:max-content;
+        padding-right:auto;
+        float:left;
+        font-size:14px;
     }
     
 }
@@ -149,17 +177,6 @@ h1 {
         gap: 2rem;
     }
 
-    .about .text{
-        display: flex;
-        gap:1rem;
-    }
-
-    .about p {
-        max-width:50rem;
-    }
-
-    .about h2 {
-        min-width: fit-content;
-    }
+    
 
 }
