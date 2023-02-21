@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Righteous";
+    font-weight: 400;
+    color: #2B2B2C;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    color: #2B2B2C;
+}
+
+h3 {
+    font-family: "Poppins";
+    font-weight: 400;
+    color: #2B2B2C;
+    font-size: 19px;
+}
+
+
+.fa-bars {
+    font-size: 32px;
+}
+
+.fa-square-facebook {
+    font-size: 35px;
+}
+
+.fa-yelp {
+    font-size: 41px;
+    margin-top: -.5rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem 6rem;
+    color: white;
+    z-index: 0;
+    background-color: #E0002D;
+}
+
+.socials {
+    display: flex;
+    gap: 1.5rem;
+    color:white;
+}
+
+.title {
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    padding: 1.5rem 3rem 1.5rem 1rem;
+    margin-top: -4.5rem;
+    border-radius: 0px 42px 42px 0px;
+}
+
+.bigisland h1 {
+    color: #E0002D;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.hawaiianbbq h2 {
+    color: #2B2B2C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.heroImg {
+    background-image: url('../img/Image1.jpeg');
+    background-size: cover;
+    height: 435px;
+    background-position: 10%;
+}
+
+.limited h2 {
+    font-size: 16px;
+    color: white;
+}
+
+.limited {
+    background-color: #E0002D;
+    max-width: max-content;
+    padding: .75rem 2rem .5rem 1.25rem;
+}
+
+.couples i {
+    font-size: 21px;
+    color: #E0002D;
+    position: absolute;
+    padding: 1rem;
+}
+
+.content {
+    margin: -2rem 1rem 0rem 1.25rem;
+}
+
+.content h1 {
+    line-height: 44.7px;
+    margin-bottom: 1.5rem;
+}
+
+.content h3 {
+    max-width: 330px;
+}
+
+.content h2 h3 {
+    line-height: 28.5px;
+}
+
+.couples h3 {
+    max-width: 295px;
+}
+
+.couples h2 {
+    max-width: 330px;
+    font-size: 19px;
+}
+
+hr {
+    width: 157px;
+    display: block;
+    margin: auto;
+    background-color: #E0002D;
+    height: 2px;
+    border-width: 0;
+}
+
+.mission h3 {
+    max-width: 325px;
+}
+
+.contact h3 {
+    max-width: 322px;
+}
+
+.content div {
+    margin: 3rem 0rem;
+}
+
+.mission img {
+    object-fit: cover;
+    width: 22rem;
+    height: 8.5rem;
+    margin: 2rem 0rem 4rem 0rem;
+}
+
+.food-grid {
+    display: grid;
+    max-width: 334px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.food-grid div {
+    margin: 0;
+}
+
+.food-image {
+    width: 157px;
+}
+
+.food-image img {
+    object-fit: cover;
+    width: 157px;
+    height: 157px;
+}
+
+.food-image:nth-child(4) {
+    grid-column: 2;
+}
+
+figcaption {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+.info {
+    background-color: #2B2B2C;
+    display: flex;
+    gap: 28px;
+    padding: 1rem 1rem 0rem 2rem;
+}
+
+.infoIcons {
+    color: white;
+}
+
+.fa-location-dot {
+    font-size: 35px;
+    padding: 1rem 0rem 3.25rem .1rem;
+}
+
+.fa-calendar {
+    font-size: 32px;
+    padding: 0rem 0rem 2.25rem 0rem;
+}
+
+.fa-phone {
+    font-size: 28px;
+}
+
+.infoText h2 {
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.infoText h3 {
+    color: white;
+    line-height: 28.5px;
+    font-size: 19px;
+}
+
+footer {
+    background-color:#E0002D;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem 2rem 1.25rem;
+}
+
+footer .socials {
+    gap:1rem;
+}
+
+.legal h3 {
+    font-size: 12px;
+    line-height: 18px;
+    color:white;
+    max-width: 11rem;
+}
