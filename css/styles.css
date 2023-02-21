@@ -1,98 +1,104 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  body {
-    font-family: "Montserrat";
-  }
+body {
+  font-family: "Montserrat";
+}
 
+h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+a {
+  color: #8f1925;
+}
+
+a:hover {
+  color: #e46276;
+}
+
+h4 {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-right: 39px;
+  background-color: white;
+  padding: 30px 188px 89px 34px;
+  line-height: 60px;
+  text-decoration: underline;
+  text-decoration-color: #A11825;
+}
+
+header {
+  padding-top: 115px;
+  padding-left: 34px;
+  padding-bottom: 36px;
+  line-height: 60px;
+}
+
+.info {
+  margin-left: 34px;
+  padding-top: 24px;
+  line-height: 40px;
+  padding-bottom: 62px;
+}
+
+@media screen and (min-width: 800px) {
   h1 {
-    color:white;
-    font-size:32px;
-    font-weight:700;
+    font-size: 48px;
   }
 
   h2 {
-    color:white;
-    font-size:28px;
-    font-weight:500;
+    font-size: 36px;
   }
 
   h3 {
-    color:#A11825;
-    font-size:24px;
-    font-weight:700;
+    font-size: 28px;
   }
 
   h4 {
-    color:white;
-    font-size:24px;
-    font-weight:500;
-    margin-bottom:20px;
-    margin-top:20px;
-  }
-
-  .buttons {
-    margin-right: 39px;
-    background-color:white;
-    padding: 30px 188px 89px 34px;
-    line-height: 60px;
-    text-decoration: underline;
-    text-decoration-color:#A11825;  
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   header {
-    padding-top: 115px;
-    padding-left: 34px;
-    padding-bottom:36px;
-    line-height:60px;
+    line-height: 80px;
+    padding-left: 167px;
+    padding-top: 167px;
+  }
+
+  .buttons {
+    float: left;
+    padding-right: 324px;
+    margin-left: 144px;
+    padding-left: 23px;
+    padding-bottom: 207px;
+    line-height: 80px;
+    margin-bottom: 0px;
   }
 
   .info {
-    margin-left: 34px;
-    padding-top:24px;
-    line-height:40px;
-    padding-bottom:62px;
+    line-height: 80px;
+    padding-top: 33px;
   }
-
-  @media screen and (min-width: 1440px) {
-    h1 {
-        font-size: 48px;
-    }
-    
-    h2 {
-        font-size: 36px;
-    }
-
-    h3 {
-        font-size:28px;
-    }
-
-    h4 {
-        font-size:28px;
-        margin-top:0px;
-        margin-bottom:0px;
-    }
-
-    header {
-        line-height:80px;
-        padding-left:167px;
-        padding-top:167px;
-    }
-
-    .buttons {
-        float:left;
-        padding-right:324px;
-        margin-left:144px;
-        padding-left:23px;
-        padding-bottom:207px;
-        line-height:80px;
-        margin-bottom:0px;
-    }
-
-    .info {
-        line-height:80px;
-        padding-top:33px;
-    }
-  }
-  
+}
