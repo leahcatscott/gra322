@@ -156,7 +156,7 @@ hr {
     display: grid;
     max-width: 334px;
     column-gap: 20px;
-    row-gap: 20px;
+    row-gap: 54px;
 }
 
 .food-grid div {
@@ -181,8 +181,8 @@ figcaption {
     font-family: 'Poppins';
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
-    margin: 1rem 0rem 2rem 0rem;
+    line-height: 0;
+    margin-top:1.5rem;
 }
 
 .info {
