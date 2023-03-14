@@ -20,3 +20,11 @@ var rellax = new Rellax('.rellax', {
     vertical: true,
     horizontal: false
 });
+
+// INitialize tinyslider
+var slider = tns({
+    container: '.my-slider',
+    items: 1,
+    slideBy: 'page',
+    autoplay: true
+  });

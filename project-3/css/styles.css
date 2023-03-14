@@ -249,6 +249,10 @@ footer .socials {
     max-width: 11rem;
 }
 
+.buttons {
+    display:none;
+}
+
 @media screen and (min-width:834px) {
     .bigisland h1 {
         font-size: 64px;
@@ -372,4 +376,52 @@ footer .socials {
         max-width: 22rem;
     }
 
+    
+
+}
+
+@media screen and (min-width:1440px) {
+    .bigisland h1 {
+        font-size: 96px;
+        line-height: 64px;
+    }
+    
+    .hawaiianbbq h2 {
+        font-size: 48px;
+        line-height: 96px;
+    }
+
+    .fa-bars {
+        display:none;
+    }
+    
+    .title {
+        padding: 6rem 7.5rem 1.5rem 5.5rem;
+        margin: -12rem 5rem -0rem 5rem;
+        border-radius: 0px 0px 42px 42px;
+    }
+
+    .icons {
+        padding: 2.5rem 5rem 6rem 4.5rem;
+    }
+
+    .buttons {
+        display:flex;
+        float:right;
+        gap:3rem;
+        justify-content:center;
+        margin-top: -3.75rem;
+        margin-right:auto;
+        padding-right: 5rem;
+    }
+
+    .buttons h2 {
+        font-size: 24px;
+        color:white;
+    }
+
+    .heroImg {
+        min-height: 771px;
+        background-position: 0%;
+    }
 }
