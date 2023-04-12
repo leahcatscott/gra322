@@ -131,7 +131,7 @@ body {
     margin-bottom:17px;
 }
 
-.text_column h3 {
+.text_column h3 { /** Make text sticky to top of page **/
     margin-top:-7px;
     height: 484px;
     width: 119px;
