@@ -10,7 +10,7 @@
 
 .fa-bars {
     color: rgba(118, 118, 118, 1);
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /***
@@ -23,16 +23,24 @@ ul {
 }
 
 .sidebar {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
     left: 0;
     background-color: rgba(118, 118, 118, 1);
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 133px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 133px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
 }
 
 /* The navigation menu links */
@@ -45,7 +53,7 @@ ul {
     color: rgba(204, 204, 204, 1);
 }
 
-  /* When you mouse over the navigation links, change their color */
+/* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
     color: white;
     text-decoration: underline;
@@ -57,7 +65,7 @@ ul {
     top: 2.5rem;
 }
 
-.sidebar .nav-active { 
+.sidebar .nav-active {
     color: white;
     font-weight: 700;
 }
@@ -82,7 +90,7 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: #767676;
 }
@@ -93,24 +101,24 @@ h3 {
 }
 
 .top {
-    display:flex;
+    display: flex;
     gap: 3rem;
-    margin-top:27px;
+    margin-top: 27px;
 }
 
 .snippet img {
-    object-fit:cover;
-    max-height:119px;
+    object-fit: cover;
+    max-height: 119px;
     min-width: 323px;
 }
 
 .content {
-    margin-left:26px;
-    margin-right:26px;
+    margin-left: 26px;
+    margin-right: 26px;
 }
 
 .title {
-    margin:3rem 0 2rem;
+    margin: 3rem 0 2rem;
 }
 
 body {
@@ -123,20 +131,20 @@ body {
 *************/
 
 .media {
-    display:flex;
-    gap:17px;   
+    display: flex;
+    gap: 17px;
 }
 
 .process_column div {
-    margin-bottom:17px;
+    margin-bottom: 17px;
 }
 
-.text_column h3 { /** Make text sticky to top of page **/
-    margin-top:-7px;
+.text_column h3 {
+    /** Make text sticky to top of page **/
+    margin-top: -7px;
     height: 484px;
     width: 119px;
-    font-size: 16px;
-    line-height:21.86px;
+    line-height: 21.86px;
 }
 
 /**** Square Photo ****
@@ -165,21 +173,21 @@ body {
 */
 
 .square img {
-    object-fit:cover;
-    height:187px;
-    width:187px;
+    object-fit: cover;
+    height: 187px;
+    width: 187px;
 }
 
 .portrait img {
-    object-fit:cover;
-    height:255px;
-    width:187px;
+    object-fit: cover;
+    height: 255px;
+    width: 187px;
 }
 
 .landscape img {
-    object-fit:cover;
-    height:119px;
-    width:187px;
+    object-fit: cover;
+    height: 119px;
+    width: 187px;
 }
 
 /*************
@@ -195,6 +203,125 @@ body {
 /*************
 * Home Page Template
 *************/
-@media screen and (min-width:600px) {}
+@media screen and (min-width:800px) {
 
-@media screen and (min-width:800px) {}
+    h1 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 16px;
+        font-weight: 400;
+        color: #767676;
+    }
+
+    .square img {
+        height: 443px;
+        width: 443px;
+    }
+
+    .portrait img {
+        height: 604px;
+        width: 443px;
+    }
+
+    .landscape img {
+        height: 282px;
+        width: 443px;
+    }
+
+    .top {
+        gap: 3rem;
+        margin-top: 44px;
+        position: absolute;
+        margin-left: -4.5rem;
+    }
+
+    .content {
+        margin-left: 115px;
+        margin-right: 115px;
+    }
+
+    .title {
+        margin: 9rem 0 4rem;
+    }
+
+    .media {
+        gap: 40px;
+    }
+
+    .process_column div {
+        margin-bottom: 40px;
+    }
+
+    .text_column h3 {
+        /** Make text sticky to top of page **/
+        margin-top: -7px;
+        height: 485px;
+        width: 121px;
+        
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    h1 {
+        font-size: 64px;
+    }
+
+    h3 {
+        font-size: 23px;
+        font-weight: 400;
+        color: #767676;
+    }
+
+    .square img {
+        height: 689px;
+        width: 689px;
+    }
+
+    .portrait img {
+        height: 940px;
+        width: 689px;
+    }
+
+    .landscape img {
+        height: 438px;
+        width: 689px;
+    }
+
+    .top {
+        display: flex;
+        gap: 10rem;
+        margin-top: 58px;
+        position: absolute;
+        margin-left: -11.5rem;
+    }
+
+    .content {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .title {
+        margin: 13rem 0 5.5rem;
+    }
+
+    .media {
+        gap: 64px;
+    }
+
+    .process_column div {
+        margin-bottom: 64px;
+    }
+
+    .text_column h3 {
+        /** Make text sticky to top of page **/
+        margin-top: -7px;
+        height: 748px;
+        width: 187px;
+        line-height: 31.42px;
+    }
+
+}
+
