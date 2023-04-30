@@ -31,13 +31,13 @@ header .inner {
 nav {
     background-color: rgba(255, 255, 255, .4);
     width: 100%;
-    overflow: hidden;
+    overflow:hidden;
     max-height: 0;
     transition: all .25s ease-out;
 }
 
 .open {
-    max-height: 200px;
+    max-height:200px;
 }
 
 nav a {
@@ -74,7 +74,7 @@ h1 {
 .menu-wrapper {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 
 /*Check this VVVVVVV
@@ -88,12 +88,12 @@ h1 {
     bottom: 0;
     left: 0;
     max-width: 500px;
-    font-size: 16px;
-    margin-right: 2rem;
+    font-size:16px;
+    margin-right:2rem;
 }
 
 .featured-work {
-    padding: 20rem 1rem;
+    padding: 3rem 1rem;
 }
 
 .featured-work h2 {
@@ -116,7 +116,7 @@ h1 {
 .about {
     background-color: #fafafa;
     padding: 1rem 1.5rem 3rem;
-    display: flex;
+    display:flex;
 }
 
 .about h2 {
@@ -135,29 +135,14 @@ h1 {
 }
 
 footer h2 {
-    text-transform: uppercase;
+    text-transform:uppercase;
     font-size: 14px;
     letter-spacing: 1px;
-    padding: 1.5rem;
+    padding:1.5rem;
 }
 
 footer {
-    display: flex;
-}
-
-.jarallax {
-    position: relative;
-    z-index: 0;
-}
-
-.jarallax>.jarallax-img {
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+    display:flex;
 }
 
 @media screen and (min-width: 680px) {
@@ -168,24 +153,24 @@ footer {
     }
 
     .text {
-        display: flex;
+        display:flex;
         gap: 3rem;
-        margin: auto;
+        margin:auto;
     }
 
     .about p {
-        max-width: 50rem;
+        max-width:50rem;
         font-size: 18px;
         line-height: 30px;
     }
 
     .about h2 {
-        min-width: max-content;
-        padding-right: auto;
-        float: left;
-        font-size: 14px;
+        min-width:max-content;
+        padding-right:auto;
+        float:left;
+        font-size:14px;
     }
-
+    
 }
 
 @media screen and (min-width: 800px) {
@@ -196,7 +181,7 @@ footer {
     nav {
         display: block !important;
         width: auto;
-        max-height: 200px;
+        max-height:200px;
     }
 
     nav ul {
@@ -204,6 +189,6 @@ footer {
         gap: 2rem;
     }
 
-
+    
 
 }
