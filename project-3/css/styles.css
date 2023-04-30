@@ -259,7 +259,7 @@ footer .socials {
 
 
 
-@media screen and (min-width:630px) {
+@media screen and (min-width:834px) {
     .bigisland h1 {
         font-size: 64px;
         line-height: 52px;
@@ -396,7 +396,7 @@ footer .socials {
 
 }
 
-@media screen and (min-width:1350px) {
+@media screen and (min-width:1440px) {
     .bigisland h1 {
         font-size: 96px;
         line-height: 64px;
