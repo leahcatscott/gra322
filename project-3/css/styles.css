@@ -99,12 +99,15 @@ h3 {
 }
 
 .content {
-    margin: -2rem 1rem 0rem 1.25rem;
+    padding: 0rem 1rem 0rem 1.25rem;
+    margin:0 auto;
+    justify-content:center;
+    width:400px;
 }
 
 .content h1 {
     line-height: 44.7px;
-    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .content h3 {
@@ -125,7 +128,7 @@ h3 {
 }
 
 .couples {
-    margin-top: 3rem;
+    padding-top: 3rem;
 }
 
 hr {
@@ -149,11 +152,11 @@ hr {
     object-fit: cover;
     width: 22rem;
     height: 8.5rem;
-    margin: 2rem 0rem 0rem 0rem;
+    padding: 2rem 0rem 0rem 0rem;
 }
 
 .food h3 {
-    margin-bottom:3rem;
+    padding-bottom:3rem;
 }
 
 .food-grid {
@@ -161,7 +164,7 @@ hr {
     max-width: 334px;
     column-gap: 20px;
     row-gap: 54px;
-    margin-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 .food-image {
@@ -183,7 +186,7 @@ figcaption {
     font-size: 16px;
     font-weight: 400;
     line-height: 0;
-    margin-top:1.5rem;
+    padding-top:1.5rem;
 }
 
 .info {
@@ -194,11 +197,11 @@ figcaption {
 }
 
 .contactFull div {
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .contactFull {
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 .infoIcons {
@@ -253,7 +256,10 @@ footer .socials {
     display:none;
 }
 
-@media screen and (min-width:834px) {
+
+
+
+@media screen and (min-width:630px) {
     .bigisland h1 {
         font-size: 64px;
         line-height: 52px;
@@ -287,7 +293,7 @@ footer .socials {
     }
 
     .heroImg {
-        min-height: 762px;
+        min-height: 72px;
         background-position: 0%;
     }
 
@@ -297,10 +303,15 @@ footer .socials {
 
     .content {
         margin: -2rem 4rem 0rem 4rem;
+        padding: 0rem 1rem 0rem 1.25rem;
+        margin:0 auto;
+        justify-content:center;
+        width:750px;
     }
 
     .content h3 {
         max-width:660px;
+        
     }
 
     .couples h2 {
@@ -377,11 +388,15 @@ footer .socials {
         max-width: 22rem;
     }
 
+   .container {
+        display:flex;
+        justify-content: center;
+    }
     
 
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1350px) {
     .bigisland h1 {
         font-size: 96px;
         line-height: 64px;
@@ -432,6 +447,7 @@ footer .socials {
 
     .content h1 {
         font-size: 64px;
+        line-height:75px;
     }
 
     .content h3 {
@@ -445,12 +461,16 @@ footer .socials {
 
     hr {
         max-width: 1064px;
-        margin: 5rem auto;
+        margin: 10rem auto;
         height:4px;
     }
 
     .content {
         margin: -2rem 6rem 0rem 4rem;
+
+        margin:0 auto;
+        justify-content:center;
+        width:1300px;
     }
 
     .couples h2 {
