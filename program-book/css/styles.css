@@ -375,10 +375,10 @@ body {
 
     .top {
         display: flex;
-        gap: 10rem;
-        margin-top: 58px;
+        gap: 16rem;
+        
         position: absolute;
-        margin-left: -11.5rem;
+        margin-left: -18.5rem;
     }
 
     .content {
