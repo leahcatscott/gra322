@@ -106,15 +106,38 @@ h3 {
     margin-top: 27px;
 }
 
+.tilehome img {
+    object-fit: cover;
+    min-height:323px;
+    max-width:323px;
+}
+
+.snippet {
+    padding:4rem 0 2rem;
+}
+
+.snippet h3 {
+    padding:0rem 0 2rem;
+}
+
 .snippet img {
     object-fit: cover;
     max-height: 119px;
     min-width: 323px;
 }
 
+.snippet video {
+    object-fit: cover;
+    max-height: 119px;
+    min-width: 323px;
+}
+
 .content {
-    margin-left: 26px;
-    margin-right: 26px;
+    padding-left: 26px;
+    padding-right: 26px;
+    margin:0 auto;
+    justify-content:center;
+    width:400px;
 }
 
 .title {
@@ -125,6 +148,8 @@ body {
     display: flex;
     justify-content: center;
 }
+
+
 
 /*************
 * Single Project Template
@@ -141,10 +166,13 @@ body {
 
 .text_column h3 {
     /** Make text sticky to top of page **/
-    margin-top: -7px;
-    height: 484px;
+    margin-top: -17px;
     width: 119px;
     line-height: 21.86px;
+    position:sticky;
+    top:0;
+    padding-top:12rem;
+    z-index: 1;
 }
 
 /**** Square Photo ****
@@ -182,6 +210,7 @@ body {
     object-fit: cover;
     height: 255px;
     width: 187px;
+    object-position: 50% 0%;
 }
 
 .landscape img {
@@ -190,10 +219,18 @@ body {
     width: 187px;
 }
 
+.landscape video {
+    object-fit: cover;
+    height: 119px;
+    width: 187px;
+}
+
+
+
 /*************
 * Home Page Template
 *************/
-.back {
+.back{
     color: #C25458;
     text-decoration: underline;
     font-size: 18px;
@@ -203,19 +240,40 @@ body {
 /*************
 * Home Page Template
 *************/
-@media screen and (min-width:800px) {
+@media screen and (min-width:834px) {
 
     h1 {
         font-size: 48px;
     }
 
-    h3 {
-        font-size: 16px;
-        font-weight: 400;
-        color: #767676;
+    .tilehome img {
+        object-fit: cover;
+        min-height:443px;
+        max-width:443px;
+    }
+
+    .snippet {
+        padding:4rem 0 2rem;
+    }
+    
+    .snippet h3 {
+        padding:0rem 0 2rem;
+    }
+    
+    .snippet img {
+        object-fit: cover;
+        max-height: 282px;
+        min-width: 443px;
+    }
+    
+    .snippet video {
+        object-fit: cover;
+        max-height: 282px;
+        min-width: 443px;
     }
 
     .square img {
+        object-fit:cover;
         height: 443px;
         width: 443px;
     }
@@ -230,16 +288,23 @@ body {
         width: 443px;
     }
 
+    .landscape video {
+        height: 282px;
+        width: 443px;
+    }
+
     .top {
-        gap: 3rem;
-        margin-top: 44px;
+        gap: 6rem;
         position: absolute;
-        margin-left: -4.5rem;
+        margin-left: -7.5rem;
     }
 
     .content {
-        margin-left: 115px;
-        margin-right: 115px;
+        padding-left: 115px;
+        PADDING-right: 115px;
+        margin:0 auto;
+        justify-content:center;
+        width:750px;
     }
 
     .title {
@@ -269,10 +334,26 @@ body {
         font-size: 64px;
     }
 
+    h2 {
+        font-size: 28px;
+    }
+
     h3 {
         font-size: 23px;
         font-weight: 400;
         color: #767676;
+    }
+
+    .tilehome img {
+        object-fit: cover;
+        min-height:689px;
+        max-width:689px;
+    }
+
+    .snippet img {
+        object-fit: cover;
+        max-height: 436px;
+        min-width: 689px;
     }
 
     .square img {
@@ -299,8 +380,11 @@ body {
     }
 
     .content {
-        margin-left: 250px;
-        margin-right: 250px;
+        padding-left: 250px;
+        padding-right: 250px;
+        margin:0 auto;
+        justify-content:center;
+        width:1300px;
     }
 
     .title {
@@ -318,7 +402,6 @@ body {
     .text_column h3 {
         /** Make text sticky to top of page **/
         margin-top: -7px;
-        height: 748px;
         width: 187px;
         line-height: 31.42px;
     }
