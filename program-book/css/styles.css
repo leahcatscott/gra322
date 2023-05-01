@@ -230,11 +230,13 @@ body {
 /*************
 * Home Page Template
 *************/
-.back{
-    color: #C25458;
+.back a{
+    color: rgba(204, 204, 204, 1);
     text-decoration: underline;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 900;
+    padding-bottom: 3rem;
+    
 }
 
 /*************
